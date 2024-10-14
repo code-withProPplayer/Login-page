@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            font-family: sans-serif;
+            background-color: rgb(181, 204, 223);
+        }
+
+        h2{
+            text-align: center;
+        }
+        .login-page{
+            border: 2px solid black;
+            display: inline-block;
+            height: 250px;
+            width: 500px;
+            margin-left: 480px;
+            margin-top: 200px;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            background-color: rgb(147, 223, 255);
+            border-radius: 12px;
+            padding: 8px;
+        }
+        
+        .login-page input{
+            display: inline-block;
+            width: 90%;
+            padding: 8px;
+            margin: 10px 0px;
+
+
+        }
+
+        .login-btn{
+            padding: 13px;
+            background-color: rgba(82, 213, 222, 0.539);
+            margin-left: 180px;
+            font-size:20px;
+            color: white;
+            width: 140px;
+            border: none;
+        }
+        .login-btn:hover{
+            cursor: pointer;
+            background-color: rgb(106, 187, 212);
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="login-page">
+        <h2>Login form</h2>
+        <form action="#">
+            <label for="name">Username:</label>
+            <input type="text" name="fname" id="fname" placeholder="enter your Username">
+            <label for="password">Password:</label>
+            <input type="password" name="pass" id="password" placeholder="enter your password" >
+           
+
+            <button class="login-btn">Login</button>
+        </form>
+    </div>
+</body>
+</html>
